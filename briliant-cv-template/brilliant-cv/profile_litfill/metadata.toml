@@ -1,0 +1,45 @@
+#:schema ../metadata.toml.schema.json
+
+header_quote = "Self-taught in CS during an Arabic Literature degree — driven by fascination with formal languages and type systems"
+cv_footer = "Curriculum vitae"
+letter_footer = "Cover letter"
+
+[layout]
+    awesome_color = "darknight"
+    before_section_skip = "1pt"
+    before_entry_skip = "1pt"
+    before_entry_description_skip = "1pt"
+    paper_size = "a4"
+    date_width = "3.6cm"
+
+    [layout.fonts]
+        regular_fonts = ["Roboto"]
+        header_font = "Roboto"
+
+    [layout.header]
+        header_align = "left"
+        display_profile_photo = false
+        info_font_size = "10pt"
+
+    [layout.entry]
+        display_entry_society_first = false
+        display_logo = false
+
+    [layout.section]
+        title_highlight = "full"
+
+    [layout.footer]
+        display_page_counter = false
+        display_footer = true
+
+[personal]
+    first_name = "Muhammad Fakhrur"
+    last_name = "Rozi"
+
+    [personal.info]
+        github = "LitFill"
+        phone = "+62 851 1130 4115"
+        email = "marrazy54@gmail.com"
+        linkedin = "muhammad-ar-razzy-b04179208/"
+        homepage = "rozy.my.id"
+        location = "Central Java, Indonesia"
