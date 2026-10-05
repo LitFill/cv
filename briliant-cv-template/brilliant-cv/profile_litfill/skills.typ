@@ -12,21 +12,21 @@
 
 #cv-skill(
   type: [Familiar With],
-  info: [Go #h-bar() Idris2 #h-bar() Agda #h-bar() Lean #h-bar() Common Lisp #h-bar() Nix #h-bar() Nushell #h-bar() Odin #h-bar() Prolog #h-bar() C #h-bar() Uiua],
+  info: [Go #h-bar() Idris2 #h-bar() Agda #h-bar() Lean #h-bar() Common Lisp #h-bar() Nushell],
 )
 
 #cv-skill-with-level(
   type: [Haskell Ecosystem],
   level: 4,
-  info: [servant #h-bar() warp #h-bar() aeson #h-bar() megaparsec #h-bar() lens #h-bar() QuickCheck #h-bar() hedgehog #h-bar() streaming #h-bar() polysemy #h-bar() hspec #h-bar() tasty #h-bar() hasql],
+  info: [servant #h-bar() warp #h-bar() aeson #h-bar() megaparsec #h-bar() lens #h-bar() QuickCheck #h-bar() hedgehog #h-bar() streaming #h-bar() polysemy #h-bar() hspec #h-bar() tasty #h-bar() req #h-bar() hasql #h-bar() relude],
 )
 
 #cv-skill(
   type: [Tools],
-  info: [Git #h-bar() Linux (NixOS, Arch) #h-bar() Neovim #h-bar() Cabal #h-bar() GHCup #h-bar() HLS #h-bar() Stack #h-bar() Nix #h-bar() Docker #h-bar() SQLite #h-bar() Node.js #h-bar() Playwright],
+  info: [Git #h-bar() Linux (NixOS, Arch) #h-bar() Neovim #h-bar() Cabal #h-bar() GHCup #h-bar() HLS #h-bar() Stack #h-bar() Nix #h-bar() hledger #h-bar() Node.js #h-bar() Playwright],
 )
 
 #cv-skill(
-  type: [Other Frameworks],
-  info: [Astro #h-bar() React],
+  type: [Soft Skills],
+  info: [Self-directed learning (15+ languages independently) #h-bar() Technical communication #h-bar() Teaching & mentoring],
 )

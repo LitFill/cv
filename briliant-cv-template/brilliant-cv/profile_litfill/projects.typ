@@ -1,7 +1,6 @@
 // Imports
 #import "@preview/brilliant-cv:4.1.0": cv-entry, cv-section, cv-skill-tag
 
-
 #cv-section("Projects")
 
 #cv-entry(
@@ -10,7 +9,7 @@
   date: [],
   location: [],
   description: list(
-    [CLI tool eliminating boilerplate by auto-deriving +show+, +eq+, and typeclass-like functions in Koka (2 derivation kinds, file I/O, dry-run mode)],
+    [CLI tool eliminating boilerplate by auto-deriving *show*, *eq*, and typeclass-like functions in Koka (2 derivation kinds, file I/O, dry-run mode)],
     [Built because Koka lacked metaprogramming — solved a real workflow pain point for Koka developers],
   ),
   tags: ("Koka", "CLI", "Metaprogramming"),
@@ -29,23 +28,25 @@
 )
 
 #cv-entry(
-  title: [lens — Optics in Koka],
-  society: [github.com/LitFill/lens],
+  title: [klens — Value-based Lenses in Koka],
+  society: [github.com/LitFill/klens],
   date: [],
   location: [],
   description: list(
-    [Port of Haskell's lens library to Koka: van Laarhoven lenses with +view+/+set+/+over+, lens composition (+.:+), and identity lens],
+    [Value-based lenses for Koka: one-shot focused views with *set*, effectful *modify* propagating Koka effects, and composition],
+    [Tuple optics and identity lens — a design exercising Koka's effect system],
   ),
-  tags: ("Koka", "Optics", "FP"),
+  tags: ("Koka", "Optics", "Effects"),
 )
 
 #cv-entry(
-  title: [rayt — Ray Tracer],
-  society: [github.com/LitFill/rayt],
+  title: [src-todo — TODO Tracker CLI],
+  society: [github.com/LitFill/src-todo],
   date: [],
   location: [],
   description: list(
-    [Ray tracer in Haskell generating PPM images with sphere geometry, surface normal rendering, and color output],
+    [Haskell CLI managing TODO comments in source files: register, list, and unregister todos with unique UUIDs],
+    [In-place file updates; comment parsing built with Megaparsec],
   ),
-  tags: ("Haskell", "Graphics", "Algorithms"),
+  tags: ("Haskell", "CLI", "Megaparsec"),
 )

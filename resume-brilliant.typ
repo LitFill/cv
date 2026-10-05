@@ -1,6 +1,5 @@
-// Wrapper to compile brilliant-cv with LitFill profile
-// Run: typst compile resume-brilliant.typ --input profile=litfill
-
-#let profile = sys.inputs.at("profile", default: "litfill")
+// Wrapper to compile brilliant-cv with the LitFill profile.
+// Profile is selectable at compile time (default: litfill):
+//   typst compile resume-brilliant.typ --input profile=fr
 
 #include "briliant-cv-template/brilliant-cv/cv.typ"

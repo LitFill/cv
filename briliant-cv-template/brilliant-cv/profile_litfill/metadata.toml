@@ -42,4 +42,5 @@ letter_footer = "Cover letter"
         email = "marrazy54@gmail.com"
         linkedin = "muhammad-ar-razzy-b04179208/"
         homepage = "rozy.my.id"
+        custom-blog = { text = "blog.rozy.my.id", awesomeIcon = "globe", link = "https://blog.rozy.my.id" }
         location = "Central Java, Indonesia"

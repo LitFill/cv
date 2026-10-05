@@ -26,12 +26,12 @@
 
 // ===== CONTENT =====
 
-align(center)[
+#align(center)[
   #text(size: 22pt, weight: "bold", fill: accent)[Muhammad Fakhrur Rozi]
   \
   #text(size: 9.5pt, fill: muted)[
     marrazy54\@gmail.com \  +62 851 1130 4115 \
-    github.com/LitFill \ linkedin.com/in/muhammad-ar-razzy-b04179208/ \ rozy.my.id
+    github.com/LitFill \ linkedin.com/in/muhammad-ar-razzy-b04179208/ \ rozy.my.id \ blog.rozy.my.id \ Central Java, Indonesia
   ]
 ]
 
@@ -72,7 +72,7 @@ Self-taught in computer science during and after an Arabic Literature degree, dr
 
 #v(0.2em)
 #text(weight: "bold", size: 10pt)[Familiar With]
-#text(size: 9.5pt)[Go, Idris2, Agda, Lean, Common Lisp, Nix, Nushell, Odin, Prolog, C, Uiua]
+#text(size: 9.5pt)[Go, Idris2, Agda, Lean, Common Lisp, Nushell]
 
 #v(0.2em)
 #text(weight: "bold", size: 10pt)[Haskell Ecosystem]
@@ -80,7 +80,7 @@ Self-taught in computer science during and after an Arabic Literature degree, dr
 
 #v(0.2em)
 #text(weight: "bold", size: 10pt)[Tools]
-#text(size: 9.5pt)[Git, Linux (NixOS, Arch), Neovim, Cabal, GHCup, HLS, Stack, Nix, Docker, SQLite, hledger, Node.js, Playwright]
+#text(size: 9.5pt)[Git, Linux (NixOS, Arch), Neovim, Cabal, GHCup, HLS, Stack, Nix, hledger, Node.js, Playwright]
 
 #v(0.2em)
 #text(weight: "bold", size: 10pt)[Soft Skills]
@@ -120,28 +120,28 @@ Self-taught in computer science during and after an Arabic Literature degree, dr
 #grid(
   columns: (1fr, auto),
   [
-    #text(weight: "bold", size: 10pt)[lens — Optics in Koka]
+    #text(weight: "bold", size: 10pt)[klens — Value-based Lenses in Koka]
     \
-    #text(size: 9pt)[Port of Haskell's lens library concepts to Koka: van Laarhoven lenses,]
-    #text(size: 9pt)[prisms, traversals. Implements +view+/+set+/+over/+, lens composition,]
-    #text(size: 9pt)[and identity lens — core functional optics pattern relevant to Scala's]
-    #text(size: 9pt)[Monocle library.]
+    #text(size: 9pt)[Value-based lenses for Koka: one-shot focused views with +set+,]
+    #text(size: 9pt)[effectful +modify+ propagating Koka effects, composition, and]
+    #text(size: 9pt)[tuple optics — a design exercising Koka's effect system.]
   ],
   [
-    #align(right, link("https://github.com/LitFill/lens")[github.com/LitFill/lens])
+    #align(right, link("https://github.com/LitFill/klens")[github.com/LitFill/klens])
   ],
 )
 
 #grid(
   columns: (1fr, auto),
   [
-    #text(weight: "bold", size: 10pt)[rayt — Ray Tracer]
+    #text(weight: "bold", size: 10pt)[src-todo — TODO Tracker CLI]
     \
-    #text(size: 9pt)[Ray tracer in Haskell generating PPM images with sphere geometry,]
-    #text(size: 9pt)[surface normal rendering, and color output.]
+    #text(size: 9pt)[Haskell CLI managing TODO comments in source files: register, list,]
+    #text(size: 9pt)[and unregister todos with unique UUIDs, updated in place.]
+    #text(size: 9pt)[Comment parsing built with Megaparsec.]
   ],
   [
-    #align(right, link("https://github.com/LitFill/rayt")[github.com/LitFill/rayt])
+    #align(right, link("https://github.com/LitFill/src-todo")[github.com/LitFill/src-todo])
   ],
 )
 
@@ -151,7 +151,7 @@ Self-taught in computer science during and after an Arabic Literature degree, dr
   columns: (1fr, auto),
   [
     #text(weight: "bold", size: 10pt)[Secretary / Administrative Automation]
-    \#text(size: 9.5pt)[Yayasan Al Anwar Al Hisyamiyyah — Pondok Pesantren]
+    #text(size: 9.5pt)[Yayasan Al Anwar Al Hisyamiyyah — Pondok Pesantren]
   ],
   [
     #align(right, text(size: 9.5pt, fill: muted)[2020 -- Present])
@@ -167,7 +167,7 @@ Self-taught in computer science during and after an Arabic Literature degree, dr
   columns: (1fr, auto),
   [
     #text(weight: "bold", size: 10pt)[Programming Instructor]
-    \#text(size: 9.5pt)[Extracurricular — Ma'had Aly Andalusia Banyumas]
+    #text(size: 9.5pt)[Extracurricular — Ma'had Aly Andalusia Banyumas]
   ],
   [
     #align(right, text(size: 9.5pt, fill: muted)[First half 2026])

@@ -47,10 +47,10 @@ Self-taught in computer science during and after an Arabic Literature degree, dr
 
 == Skills
 - *Primary Languages*: Haskell, Koka, OCaml, Rust, TypeScript/JavaScript
-- *Familiar With*: Go, Idris2, Agda, Lean, Common Lisp, Nix, Nushell, Odin, Prolog, C, Uiua
+- *Familiar With*: Go, Idris2, Agda, Lean, Common Lisp, Nushell
 - *Haskell Ecosystem*: servant, warp, aeson, megaparsec, lens, QuickCheck, hedgehog, streaming, polysemy, hspec, tasty, req, hasql, relude
-- *Other Frameworks*: Astro, React
-- *Tools*: Git, Linux (NixOS, Arch), Neovim, Cabal, GHCup, HLS, Stack, Nix, Docker, SQLite, hledger, Node.js, Playwright
+- *Tools*: Git, Linux (NixOS, Arch), Neovim, Cabal, GHCup, HLS, Stack, Nix, hledger, Node.js, Playwright
+- *Soft Skills*: Self-directed learning (15+ languages independently), technical communication, teaching & mentoring
 
 == Projects
 
@@ -67,16 +67,16 @@ Self-taught in computer science during and after an Arabic Literature degree, dr
 - Full HM type inference (Algorithm W) from scratch in Haskell: parser, AST, constraint-based type checker with let-polymorphism. Supports integers, booleans, conditionals, let-bindings, binary ops.
 
 #project(
-  name: "lens — Optics in Koka",
-  url: "https://github.com/LitFill/lens",
+  name: "klens — Value-based Lenses in Koka",
+  url: "https://github.com/LitFill/klens",
 )
-- Port of Haskell's lens library to Koka: van Laarhoven lenses with view/set/over, lens composition, and identity lens.
+- Value-based lenses for Koka: one-shot focused views with set, effectful modify propagating Koka effects, composition, and tuple optics — a design exercising Koka's effect system.
 
 #project(
-  name: "rayt — Ray Tracer",
-  url: "https://github.com/LitFill/rayt",
+  name: "src-todo — TODO Tracker CLI",
+  url: "https://github.com/LitFill/src-todo",
 )
-- Ray tracer in Haskell generating PPM images with sphere geometry, surface normal rendering, and color output.
+- Haskell CLI managing TODO comments in source files: register, list, and unregister todos with unique UUIDs, updated in place. Comment parsing built with Megaparsec.
 
 == Experience
 
